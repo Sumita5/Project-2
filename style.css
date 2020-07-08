@@ -13,7 +13,7 @@ body{
 
 .first-part{
     background: #F0FFF0;
-    width: 100%;
+    width: auto;
     height: auto;
 }
 .nav-item{
@@ -61,7 +61,7 @@ header h1{
     margin-bottom: 3px!important;
 }
 
-.second-partcard-body{
+.second-part .card-body{
     text-align: center;
     
 }
@@ -145,8 +145,8 @@ footer{
     .nav-item{
         text-align: center!important;
     }
-    .first-part .backdrop{
-        margin: auto;
+    .first-part .backdrop img{
+        width: 100%;
     }
 
     .second-part .card{
@@ -156,12 +156,10 @@ footer{
     .second-part .card:hover{
         transform: translateY(0px);
         margin: 30px 0;
-
     }
 
     .third-part .card{
-        margin: 10px auto;
-               
+        margin: 10px 0;      
     }
     .about-us{
         text-align: center;
@@ -175,8 +173,8 @@ footer{
         text-align: center!important;
     }
 
-    .first-part .backdrop{
-        margin: auto;
+    .first-part .backdrop img{
+        width: 100%;
     }
     .second-part .card{
         align-items: center;
@@ -188,14 +186,13 @@ footer{
     }
 
     .third-part .card{
-        margin: 10px auto;
-        
+        margin: 10px 0;              
     }
 
+    
     .about-us{
         text-align: center;
     }
-
 
 }
 
