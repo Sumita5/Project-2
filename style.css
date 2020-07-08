@@ -32,7 +32,13 @@ header p{
     color: orange;
 }
 header h1{
-    font-weight: 800px;
+    font-weight: bold;
+    
+}
+.highlight{
+    color: #21B573;
+    font-weight: bold;
+    
 }
 .started{
     margin-top: 10px;
@@ -134,6 +140,64 @@ footer{
 
 /* footer end */
 
+
+@media(max-width: 764px){
+    .nav-item{
+        text-align: center!important;
+    }
+    .first-part .backdrop{
+        margin: auto;
+    }
+
+    .second-part .card{
+        align-items: center;
+        margin: 10px 0;
+    }
+    .second-part .card:hover{
+        transform: translateY(0px);
+        margin: 30px 0;
+
+    }
+
+    .third-part .card{
+        margin: 10px auto;
+               
+    }
+    .about-us{
+        text-align: center;
+    }
+    
+}
+
+
+@media(max-width: 991px){
+    .nav-item{
+        text-align: center!important;
+    }
+
+    .first-part .backdrop{
+        margin: auto;
+    }
+    .second-part .card{
+        align-items: center;
+        margin: 10px 0;
+    }
+    .second-part .card:hover{
+        transform: translateY(0px);
+        margin: 30px 0;
+    }
+
+    .third-part .card{
+        margin: 10px auto;
+        
+    }
+
+    .about-us{
+        text-align: center;
+    }
+
+
+}
 
 
 

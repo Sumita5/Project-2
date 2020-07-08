@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <!-- add favicon -->
+    <link rel="shortcut icon" href="images/school.png" type="image/x-icon">   
     
 </head>
 <body>
@@ -21,17 +23,17 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                   <ul class="navbar-nav">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="#books">Books <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#online courses">Courses</a>
+                      <a class="nav-link" href="#courses">Courses</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#library">Others</a> 
+                      <a class="nav-link" href="#others">Others</a> 
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#subscribe">Blog</a>
+                      <a class="nav-link" href="#blog">Blog</a>
                     </li>
                     <li class="nav-item"><button class="btn my-2 my-sm-0" type="submit">Sign In</button></li>
                 </ul>
@@ -39,16 +41,16 @@
         </nav>
     </div>
 
-        <header class="mt-5">
+        <header class="backdrop mt-5">
             <div class="container">
                 <div class="row">      
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-12 col-12">
                     <p><b>Are you ready to Learn?</b></p>
-                    <h1>Learn With fun on any schedule</h1>
+                    <h1>Learn With fun <br>on <span class="highlight">any schedule</span> </h1>
                     <p1>Lorem ipsum, dolor sit amet consectetur adipisicing.</p1><br>
                     <button class="started">Get started</button>        
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-8 col-md-12 col-12">
                     <img src="images/Illustration.png">        
                 </div>      
                 </div>
@@ -57,9 +59,10 @@
     </section>
   <!-- End navbar section -->
   <!--Start 2nd part-->
-  <section class="second-part mt-5 mb-3">
+  <section class="second-part mt-5 mb-3" id="books">
     <div class="container">
-        <div class="card-deck">            
+    <div class="card-deck">   
+        <div class="col-lg-3 col-md-6 col-12">        
             <div class="card">
               <img src="images/book.png" alt="...">
               <div class="card-body">
@@ -68,6 +71,8 @@
                 
               </div>
             </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
             <div class="card">
                 <img src="images/Students.png" alt="...">
                 <div class="card-body">
@@ -75,31 +80,36 @@
                   <p class="card-text"><small>Learn Anythings</small></p>
                 </div>
               </div>
-              <div class="card">
-                <img src="images/Test.png" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">9K+ Test Token</h5>
-                  <p class="card-text"><small>Learn Anythings</small></p>
-                </div>
-              </div>
-              <div class="card">
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+            <div class="card">
+            <img src="images/Test.png" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">9K+ Test Token</h5>
+              <p class="card-text"><small>Learn Anythings</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+            <div class="card">
                 <img src="images/Student.png" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">2000+ Student</h5>
                   <p class="card-text"><small>Learn Anythings</small></p>
                 </div>
               </div>
-          </div>
-          
+        </div>  
+    </div>          
     </div>
   </section>
 <!--End 2nd part-->
 
  <!-- Start Third part -->
- <section class="third-part mt-5">
+ <section class="third-part mt-5" id="courses">
     <h1 class="text-center mb-3">Online Courses</h1>
     <div class="container">
-        <div class="card-deck">            
+        <div class="card-deck"> 
+        <div class="col-lg-4 col-12">           
             <div class="card">
               <img src="images/Morder pyschology.png" alt="...">              
                 <h5 class="card-title mt-3">Modern Psychology</h5>
@@ -111,6 +121,8 @@
                     <div><img src="images/people.png" alt=""><small>60 seats</small></div>                      
                 </div>            
             </div>
+        </div>
+        <div class="col-lg-4 col-12">
             <div class="card">
                 <img src="images/Morder psyc.png" alt="...">
                 <h5 class="card-title mt-3">Modern Psychology</h5>
@@ -122,6 +134,8 @@
                     <div><img src="images/people.png" alt=""><small>60 seats</small></div>                      
                 </div>            
             </div>
+        </div>
+        <div class="col-lg-4 col-12">
             <div class="card">
                 <img src="images/Morder pychons.png" alt="...">                
                   <h5 class="card-title mt-3">Modern Psychology</h5>
@@ -133,26 +147,28 @@
                     <small>Start 20 April,2021</small></div>
                     <div><img src="images/people.png" alt=""><small>60 seats</small></div>                      
                   </div>             
-            </div>              
-          </div>          
+            </div>
+        </div>                          
+    </div>          
     </div>  
 </section>
 <!--End Third part-->
 
 <!-- Start Testimonial part -->
-<section class="testimonial-part mt-5 pt-5">
+<section class="testimonial-part mt-5 pt-5" id="blog">
     <h1 class="text-center">Testimonial</h1>
-    <div class="container col-lg-6 offset-lg-3">
+    <div class="container col-lg-6 offset-lg-3 col-12">
         <div class="d-flex flex-row justify-content-center mt-5">
             <div><img src="images/Man.png" alt=""></div>
             <div><p class="ml-5 text-justify">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by  injected humour,or randomised words which don't look even slightly believable.</p></div>                      
         </div>   
     </div>
 </section>
+<!-- End Testimonial part -->
 
 <!-- Contct Us Start-->
 <section class="contact-us mt-5 p-2" id="contactus">
-    <div class="container col-lg-6 offset-lg-3">
+    <div class="container col-lg-6 offset-lg-3 col-12">
     <h1 class="text-center">Contact Us</h1>
   <form action="#">
     <div class="form-group">
@@ -181,7 +197,7 @@
 
 
   <!-- Footer start -->
-<footer id="aboutus">
+<footer class="about-us" id="others">
   <div class="container">
     <div class="row">
         <div class="col-lg-5">
